@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    /* Navigation */
+    .feature-ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    .feature-li {
+      float: left;
+      border-bottom: 1px solid #bbb;
+      width: 165px;
+      height: 32px;
+    }
+
+    .feature-li:hover {
+      color: #36ced0;
+    }
+
+    .feature-li:last-child {
+      border-left: 1px solid #bbb;
+    }
+
+    .feature-li-a {
+      display: block;
+      color: black;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .feature .title {
+      font-weight: bold;
+      width: 177px;
+      padding-top: 10px;
+      line-height: 16px;
+      cursor: default;
+    }
+
+    .feature .name {
+      cursor: pointer;
+    }
+
+    .residential {
+      padding-left: 32px;
+      line-height: 34px;
+    }
+
+    .residential-ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    .residential-ul-li {
+      list-style: none;
+      float: left;
+    }
+    .residential-ul-li-a {
+      background-repeat: no-repeat;
+      display: inline-block;
+      background-position: 0 0;
+      width: 24px;
+      height: 27px;
+    }
+
+    .residential-ul-li-a {
+      background-image: url(image/residential.png);
+    }
+
+    .residential:hover .residential-ul-li-a {
+      background-position: -24px 0;
+    }
+
+    .commercial {
+      padding-left: 40px;
+      line-height: 34px;
+    }
+
+    .commercial-ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    .commercial-ul-li {
+      list-style: none;
+      float: left;
+    }
+
+    .commercial-ul-li-a {
+      background-repeat: no-repeat;
+      display: inline-block;
+      margin-top: 7px;
+      background-position: -24px -1px;
+      width: 24px;
+      height: 27px;
+    }
+
+    .commercial-ul-li-a {
+      background-image: url(image/commercial.png);
+    }
+
+    .commercial:hover .commercial-ul-li-a {
+      background-position: 0 -1px;
+    }
+
+    /* Navigation End */
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <div class="feature">
+    <ul class="feature-ul">
+      <li class="feature-li"><a class="feature-li-a" href="#features">
+          <div class="title">FEATURED PROJECTS</div>
+        </a></li>
+      <li class="feature-li"><a class="feature-li-a" href="#residential">
+          <div class="residential">
+            <ul class="residential-ul">
+              <li class="residential-ul-li"><a class="residential-ul-li-a" href="#"></a></li>
+            </ul>
+            <span class="name">&nbsp;&nbsp;Residential</span>
+          </div>
+        </a></li>
+      <li class="feature-li"><a class="feature-li-a" href="#commercial">
+          <div class="commercial">
+            <ul class="commercial-ul">
+              <li class="commercial-ul-li"><a class="commercial-ul-li-a" href="#"></a></li>
+            </ul>
+            <span class="name">&nbsp;&nbsp;Commercial</span>
+          </div>
+        </a></li>
+    </ul>
+  </div>
+  <!-- Navigation End -->
+
+</body>
+
+</html>
