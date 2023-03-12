@@ -1,9 +1,5 @@
 <!DOCTYPE html>
 <html>
-<!-- <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title> -->
 
 <head>
   <title>DreamDevelopers</title>
@@ -15,25 +11,25 @@
 
 <body>
   <!-- Header -->
-  <div class="header clearfix">
-    <div class="logo">
-      <a href="#">
-        <div>
+  <div class="header">
+    <div class="container clearfix">
+      <div class="logo">
+        <a href="#">
           <img src="image/logo.png" alt="dream developers logo" />
           <div class="logo-text">
             <sapn>DREAM</sapn>
             <span class="no-bold">DEVELOPERS</span>
           </div>
-        </div>
-      </a>
-    </div>
-    <div class="navigation">
-      <ul>
-        <li><a href="#home">HOME</a></li>
-        <li><a href="#aboutus">ABOUT US</a></li>
-        <li><a href="#carrer">CAREER</a></li>
-        <li><a href="#contactus">CONTACT US</a></li>
-      </ul>
+        </a>
+      </div>
+      <div class="navigation">
+        <ul class="clearfix">
+          <li><a href="#home">HomE</a></li>
+          <li><a href="#aboutus">ABOUT US</a></li>
+          <li><a href="#carrer">CAREER</a></li>
+          <li><a href="#contactus">CONTACT US</a></li>
+        </ul>
+      </div>
     </div>
     <div class="contact">
       <a href="tel:+88027875968">
@@ -46,16 +42,19 @@
 
   <!-- Slider -->
   <div class="slider">
-    <img src="image/slider-bg.jpg" alt="slider image" />
-    <div class="navigation">
-      <div class="title">AKASH PRODP</div>
-      <div class="description">
-        Akash Prodip is one of the Shanta Group's largest projects in the
-        dhaka city located in Gulshan
-      </div>
-      <div class="icon clearfix">
-        <i class="fa-solid fa-chevron-left"></i>&nbsp;
-        <i class="fa-solid fa-chevron-right"></i>
+    <div class="container">
+      <div class="navigation">
+        <h3 class="title">AKasH PRODP</h3>
+        <div class="description">
+          Akash Prodip is one of the Shanta Group's largest projects in the
+          dhaka city located in Gulshan
+        </div>
+        <div class="clearfix">
+          <div class="icon">
+            <a href="#"><i class="fa-solid fa-chevron-left"></i></a>
+            <a href="#"><i class="fa-solid fa-chevron-right"></i></a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -63,54 +62,27 @@
 
   <!-- Information -->
   <div class="information">
-    <div class="info">
-      <div class="title">WE ARE GROWING LIKE ANYTHING</div>
+    <div class=" container">
+      <h1 class="title">WE ARE GROWING LIKE ANYTHING</h1>
       <div class="details">
-        <p>
           Shanta Group started its journey in 1988, and has since become one
           of the forerunners in ready-made garment (RMG) export, earning a
           reputation as an important vendor for some of the most renowned
           apparel brands of USA and Europe.
-        </p>
       </div>
     </div>
 
     <div class="side-bar">
-      <table>
-        <tr>
-          <td>
-            <img src="image/side-menu-list-style.png" /><span>SEARCH</span>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img src="image/side-menu-list-style.png" /><span>ONGOING</span>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img src="image/side-menu-list-style.png" /><span>UPCOMING</span>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <img src="image/side-menu-list-style.png" /><span>COMPLETED</span>
-          </td>
-        </tr>
-        <tr>
-          <td class="white-bg"></td>
-        </tr>
-        <tr>
-          <td class="orange-bg">
-            <img src="image/side-menu-list-style.png" /><span>LAND OWNER</span>
-          </td>
-        </tr>
-        <tr>
-          <td class="orange-bg">
-            <img src="image/side-menu-list-style.png" /><span>BUYERS</span>
-          </td>
-        </tr>
-      </table>
+      <ul class="black-bg">
+        <li><a href="#"><span class="bg"></span><span>SEARCH</span></a></li>
+        <li><a href="#"><span class="bg"></span><span>ONGOING</span></a></li>
+        <li><a href="#"><span class="bg"></span><span>UPCOMING</span></a></li>
+        <li><a href="#"><span class="bg"></span><span>COMPLETED</span></a></li>
+      </ul>
+      <ul class="orange-bg">
+        <li><a href="#"><span class="bg"></span><span>LAND OWNER</span></a></li>
+        <li><a href="#"><span class="bg"></span><span>BUYERS</span></a></li>
+      </ul>
     </div>
   </div>
   <!-- Information End -->
@@ -119,98 +91,123 @@
 
     <!-- Navigation -->
     <div class="feature">
-      <ul class="feature-ul">
-        <li class="feature-li"><a class="feature-li-a" href="#features">
-            <div class="title">FEATURED PROJECTS</div>
-          </a></li>
-        <li class="feature-li"><a class="feature-li-a" href="#residential">
-            <div class="residential">
-              <ul class="residential-ul">
-                <li class="residential-ul-li"><a class="residential-ul-li-a" href="#"></a></li>
-              </ul>
-              <span class="name">&nbsp;&nbsp;Residential</span>
-            </div>
-          </a></li>
-        <li class="feature-li"><a class="feature-li-a" href="#commercial">
-            <div class="commercial">
-              <ul class="commercial-ul">
-                <li class="commercial-ul-li"><a class="commercial-ul-li-a" href="#"></a></li>
-              </ul>
-              <span class="name">&nbsp;&nbsp;Commercial</span>
-            </div>
-          </a></li>
+      <ul>
+        <li>
+          <div class="title">FEATURED PROJECTS</div>
+        </li>
+        <li>
+          <a href="#">
+            <div class="residential-logo"></div>
+            <span class="name">Residential</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="commercial-logo"></div>
+            <span class="name">Commercial</span>
+          </a>
+        </li>
       </ul>
     </div>
     <!-- Navigation End -->
 
-    <!-- Element -->
-    <div class="element clearfix">
+
+    <!-- Projects -->
+    <div class="project-wrapper clearfix">
       <div class="card">
-        <img src="image/building1.png " />
-        <div class="comment-img">
-          <img src="image/text-backgorund.png" />
+        <img src="image/building1.png" alt="building1">
+        <div class="comment">
           <div class="value">
-            <div class="title">
-              <span>AKASH PRODIP.</span><span class="details"> Banani,Dhaka</span>
-            </div>
+            <span class="title">AKASH PRODIP.</span><span class="details"> Banani,Dhaka</span>
+          </div>
+          <span class="comment-icon"></span>
+        </div>
+        <div class="explore">
+          <div class="element">
+            <a href="#">
+              <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </a>
+            <span class="details">EXPLORE</span>
           </div>
         </div>
-        <img class="explore-img" src=" image/explore.png" />
       </div>
       <div class="card">
-        <img src="image/building2.png " />
-        <div class="comment-img">
-          <img src="image/text-backgorund.png" />
+        <img src="image/building2.png" alt="building1">
+        <div class="comment">
           <div class="value">
-            <div class="title">
-              <span>AKASH PRODIP.</span><span class="details"> Banani,Dhaka</span>
-            </div>
+            <span class="title">AKASH PRODIP.</span><span class="details"> Banani,Dhaka</span>
+          </div>
+          <span class="comment-icon"></span>
+        </div>
+        <div class="explore">
+          <div class="element">
+            <a href="#">
+              <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </a>
+            <span class="details">EXPLORE</span>
           </div>
         </div>
-        <img class="explore-img" src=" image/explore.png" />
       </div>
       <div class="card">
-        <img src="image/building3.png " />
-        <div class="comment-img">
-          <img src="image/text-backgorund.png" />
+        <img src="image/building3.png" alt="building1">
+        <div class="comment">
           <div class="value others">
-            <div class="title">
-              <span>THE LANDING 104.</span><br />
-              <span class="details"> Dhanmondi,Dhaka</span>
-            </div>
+            <span class="title">THE LANDING 104.</span><br />
+            <span class="details"> Dhanmondi,Dhaka</span>
+          </div>
+          <span class="comment-icon"></span>
+        </div>
+        <div class="explore">
+          <div class="element">
+            <a href="#">
+              <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </a>
+            <span class="details">EXPLORE</span>
           </div>
         </div>
-        <img class="explore-img" src=" image/explore.png" />
       </div>
       <div class="card">
-        <img src="image/building4.png " />
-        <div class="comment-img">
-          <img src="image/text-backgorund.png" />
+        <img src="image/building4.png" alt="building1">
+        <div class="comment">
           <div class="value others">
-            <div class="title">
-              <span>ESTERN SUNSET.</span><br />
-              <span class="details"> Motejheel,Dhaka</span>
-            </div>
+            <span class="title">ESTERN SUNSET.</span><br />
+            <span class="details"> Motejheel,Dhaka</span>
+          </div>
+          <span class="comment-icon"></span>
+        </div>
+        <div class="explore">
+          <div class="element">
+            <a href="#">
+              <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </a>
+            <span class="details">EXPLORE</span>
           </div>
         </div>
-        <img class="explore-img" src=" image/explore.png" />
       </div>
     </div>
-    <!-- Element End -->
+    <!-- Projects End -->
 
-    <!-- Foundation -->
-    <div class="foundation">
-      <div class="title">About Us</div>
+    <!-- company details -->
+    <div class="company-details">
+      <h2>About Us</h2>
       <div class="elements clearfix">
-        <div class="left">
+        <div class="intro">
           <div class="clearfix">
+            <img src="image/about-us.jpg" alt="about us image" />
             <div class="title">
-              <img src="image/about-us.jpg" alt="about us image" />
               <span>To offer a global touch,maintaining Bangladeshi culture in
                 living and work places.</span>
-            </div>
-            <div class="color-text">
-              Our clients are our key to sucess.
+              <div class="color-text">
+                Our clients are our key to sucess.
+              </div>
             </div>
           </div>
           <div class="details">
@@ -225,9 +222,9 @@
           </div>
         </div>
 
-        <div class="right">
+        <div class="points">
           <div class="title">
-            <img src="image/about-us-list-style.jpg" />
+            <img src="image/about-us-list-style.jpg" alt="list style" />
             <span class="head-pad">Who We Are</span>
           </div>
           <div class="details">
@@ -237,7 +234,7 @@
             commercial spaces, all in prime locations of Dhaka city.<a href="#">[More]</a>
           </div>
           <div class="title">
-            <img src="image/about-us-list-style.jpg" />
+            <img src="image/about-us-list-style.jpg" alt="list style" />
             <span class="head-pad">Vision</span>
           </div>
           <div class="details">
@@ -249,34 +246,33 @@
       </div>
     </div>
   </div>
-  <!-- Foundation End -->
+  <!-- company details End -->
 
-  <div footer>
-    <div class="footer-background">
+  <!-- Footer start -->
+  <div class="footer-background">
+    <div class="container">
       <div class="footer-value clearfix">
         <div class="endorsement">
-          <div class="title">Testimonial</div>
+          <h4>Testimonial</h4>
           <div class="details">
-            Pellentesque elementum leo et justo dapibus convalli. IN justo
+            Pellentesque elementum leo et justo dapibus convalli. In justo
             nibh, congue nec dapibus ac, placerat eget sem. Nunc consequat
             felis non elit ultricies in varius massa laboreet. Aenean lectus
             nisl, ellentesque in fermentum sit amet, convallis a lorem
             condimentum mollis.
           </div>
           <div>- Ketty perri</div>
-          <br />
-          <div style="display: flex">
-            <hr class="hr-one" />
-            <a href="#"><img class="radius" src="image/left-arrow.jpg" /></a></li>
-            <a href="#"><img src="image/right-arrow.jpg" /></a>
+          <div class=" endorsement-footer clearfix">
+            <hr class="footer-line" />
+            <a  href="#"><img class="radius" src="image/left-arrow.jpg" alt="left arrow" /></a></li>
+            <a  href="#"><img src="image/right-arrow.jpg" alt="right arrow" /></a>
+
           </div>
         </div>
 
         <div class="links">
-          <div class="clearfix">
-            <a href="#"><img src="image/exclm-sign.png" /></a>
-            <div class="title">Quick Link</div>
-          </div>
+          <h4 class="title">Quick Link</h4>
+          <img src="image/exclm-sign.png" alt="exclm sign" />
           <ul>
             <li><a href="#">Detouched House</a></li>
             <li><a href="#">Appartment Complex</a></li>
@@ -287,31 +283,39 @@
         </div>
 
         <div class="address">
-          <div class="clearfix">
-            <a href="#"><img src="image/exclm-sign.png" /></a>
-            <div class="title">Address</div>
-          </div>
-          <div class="second-title">Dream Developer Ltd.</div>
-          <p>
+          <h4>Address</h4>
+          <img src="image/exclm-sign.png" alt="exclm sign" />
+          <h5 class="second-title">Dream Developer Ltd.</h5>
+          <div class="address-details">
             Dream Western Tower, Level 10 186, Bir Uttam Mir Shawkat Sharak
             Tejgaon 1/A, Dhaka 1208, Bangladesh
-          </p>
-          <p>
-            Phone: +88 02 8878759-68<br />Cell: +88 01678 666444<br />Email:
-            info@splbd.com
-          </p>
+          </div>
+          <div class="address-details">
+            <ul >
+              <li>
+                <a href="tel:+88027875968">Phone: +88 02 8878759-68</a>
+              </li>
+              <li>
+                <a href="tel:+8801678666444">Cell: +88 01678 666444</a>
+              </li>
+              <li>
+                <a href="mailto: info@splbd.com">Email: info@splbd.com</a>
+              </li>
+            </ul>
+          </div>
         </div>
 
-        <div class="platform">
-          <div class="title">Subscribe With Us</div>
-          <form action="/action_page.php">
-            <input type="email" class="email" name="email" placeholder="type your email address" /><br />
-            <input type="submit" value="SUBMIT" />
-          </form>
-          <br />
-          <div class="second-title">Find, Share & Write To Us</div>
+        <div class="subscribe">
+          <h4>Subscribe With Us</h4>
+          <div class="mail-form">
+            <form action="/action_page.php">
+              <input type="email" class="mail-address" name="email" placeholder="type your e-mail address" /><br />
+              <input type="submit" value="SUBMIT" />
+            </form>
+          </div>
+          <h4>Find, Share & Write To Us</h4>
           <div class="icons">
-            <ul>
+            <ul class="clearfix">
               <li><a href="#"></a></li>
               <li><a href="#"></a></li>
               <li><a href="#"></a></li>
@@ -323,6 +327,7 @@
       </div>
     </div>
   </div>
+  <!-- Footer End -->
 </body>
 
 </html>
